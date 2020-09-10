@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600;1,700&display=swap');
+
+
+* {
+    box-sizing: border box;
+}
+
+body {
+    background-color: aliceblue;
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    color: #2762eb;
+    text-decoration: none;
+}
+
+.container {
+    background-color: beige;
+    border-radius: 5px;
+    border: 20px solid #dce7ff;
+}
