@@ -6,14 +6,16 @@
 }
 
 body {
-    background-color: aliceblue;
-    color: azure;
+    background-color: lightseagreen;
+    color: rgb(12, 97, 97);
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+    
+    
 }
 
 a {
@@ -22,7 +24,103 @@ a {
 }
 
 .container {
-    background-color: beige;
+    background-color: rgb(236, 247, 246);
     border-radius: 5px;
     border: 20px solid #dce7ff;
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+    box-shadow: 0 4px 5px rgba(0,0,0, 0.1);
+}
+
+form {
+    border-right: 1px solid #ecf2ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex: 1;
+}
+
+.form-control {
+    margin: 20px 0;
+    width: 100%;    
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input:not([type='checkbox']) {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 14px;  
+    padding: 10px;
+    width:100%; 
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.checkbox-container label {
+    color: #7a7e8c;
+    font-weight: normal;
+}
+
+.checkbox-container a {
+    margin-left: auto;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #141c2c;
+    border: 2px solid #141c2c;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 30px;
+    width: 100%;
+}
+
+.features {
+    flex: 1.5;
+    padding: 10px;
+}
+
+.features {
+    padding-left: 50px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.features i {
+    color: rgb(12, 97, 97);
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.features h3 {
+    margin: 0;
+}
+
+.features p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 5px 0;
 }
